@@ -19,7 +19,7 @@ const House = sequelize.define('house', {
 
 House.sync() 
 
-const port = 4000
+const port = PORT
 app.listen(port, () => console.log(`Listening on port ${port}`))
 app.use(bodyParser.json())
 
